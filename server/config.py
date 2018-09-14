@@ -38,7 +38,7 @@ class EnvironmentConfig:
 
 
 class ProdConfig(EnvironmentConfig):
-    APP_BASE_URL = 'https://tasks.hotosm.org'
+    APP_BASE_URL = 'https://tasks.spatial.ucdavis.edu'
     API_DOCS_URL = f'{APP_BASE_URL}/api-docs/swagger-ui/index.html?' + \
                    f'url={APP_BASE_URL}/api/docs'
     LOG_DIR = '/var/log/tasking-manager-logs'
@@ -46,7 +46,7 @@ class ProdConfig(EnvironmentConfig):
 
 
 class StageConfig(EnvironmentConfig):
-    APP_BASE_URL = 'https://tasks-stage.hotosm.org'
+    APP_BASE_URL = 'https://tasks-stage.spatial.ucdavis.edu'
     API_DOCS_URL = f'{APP_BASE_URL}/api-docs/swagger-ui/index.html?' + \
                    f'url={APP_BASE_URL}/api/docs'
     LOG_DIR = '/var/log/tasking-manager-logs'
@@ -54,7 +54,7 @@ class StageConfig(EnvironmentConfig):
 
 
 class DemoConfig(EnvironmentConfig):
-    APP_BASE_URL = 'https://tasks-demo.hotosm.org'
+    APP_BASE_URL = 'https://tasks-demo.spatial.ucdavis.edu'
     API_DOCS_URL = f'{APP_BASE_URL}/api-docs/swagger-ui/index.html?' + \
                    f'url={APP_BASE_URL}/api/docs'
     LOG_DIR = '/var/log/tasking-manager-logs'
