@@ -4,9 +4,9 @@ import os
 
 class EnvironmentConfig:
     """ Base class for config that is shared between environments """
-    DEFAULT_CHANGESET_COMMENT = '#hotosm-project'
+    DEFAULT_CHANGESET_COMMENT = '#ucdavis-project'
     # This is the address we'll use as the sender on all auto generated emails
-    EMAIL_FROM_ADDRESS = 'noreply@hotosmmail.org'
+    EMAIL_FROM_ADDRESS = 'biogeo@ucdavis.edu'
     LOG_LEVEL = logging.ERROR
     # Mapper Level values represent number of OSM changesets
     MAPPER_LEVEL_INTERMEDIATE = 250
